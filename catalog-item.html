@@ -7,9 +7,7 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="logo">
-          <a><img src="/img/logo.png" alt="Barbershop-logo"></a>
-        </div>
+        <a class="logo"><img src="/img/logo.png" alt="Barbershop-logo"></a>
         <nav class="main-navigation">
           <ul>
             <li>
@@ -36,29 +34,33 @@
     </header>
     <main class="container">
       <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
-      <ul class="breadcrumbs">
-        <li>
-          <a href="#">ГЛАВНАЯ</a>
-        </li>
-        <li>
-          <a href="#">МАГАЗИН</a>
-        </li>
-        <li>
-          <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
-        </li>
-        <li>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</li>
-      </ul>
+      <nav class="breadcrumbs">
+        <ul>
+          <li>
+            <a href="#">ГЛАВНАЯ</a>
+          </li>
+          <li>
+            <a href="#">МАГАЗИН</a>
+          </li>
+          <li>
+            <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+          </li>
+          <li>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</li>
+        </ul>
+      </nav>
       <section class="item-galery">
-        <figure class="item-galery-content">
+        <div>           <!-- Обязательно ли давать <div> класс или можно будет использовать вложенные сеоекторы? -->
           <img src="baxt-of-cal-1" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»-1">
-          <a href="#"><img src="baxt-of-cal-2" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»-2"></a>
-          <a href="#"><img src="baxt-of-cal-3" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»-3"></a>
-          <a href="#"><img src="baxt-of-cal-4" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»-4"></a>
-        </figure>
+        </div>
+        <a href="#"><img src="baxt-of-cal-2" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»-2"></a>
+        <a href="#"><img src="baxt-of-cal-3" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»-3"></a>
+        <a href="#"><img src="baxt-of-cal-4" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»-4"></a>
       </section>
       <section class="item-description">
-        <b>есть в наличии</b>
-        <a>Артикул: dexter-ae</a>
+        <div class="availability">
+          <span>есть в наличии</span>
+          <span class="code">Артикул: dexter-ae</span>
+        </div>
         <p>Travel Kit – необходимый аксессуар во время любого
         путешествия.В аккуратной кожаной сумке находится все, что
         нужно для бритья и ухода за кожей во время рабочей поездки
@@ -67,12 +69,10 @@
         стать отличным подарком.
         </p>
       </section>
-      <section class="buy-item">
-        <div class="price-item">
-          2 900 РУБ.
-        </div>
-        <a class="btn buy-it" href="#">КУПИТЬ</a>
-      </section>
+      <div class="buy-item">
+        <span class="price-item">2 900 РУБ.</span>
+        <button class="btn buy-it" type="button">КУПИТЬ</button>
+      </div>
       <section class="item-consist">
         <h2>В набор входят:</h2>
         <ul>
