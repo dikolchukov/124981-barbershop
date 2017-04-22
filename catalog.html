@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <a class="logo" href="index.html"><img src="img/logo.png" alt="Barbershop-logo"></a>
         <nav class="main-navigation">
           <ul>
@@ -33,7 +33,7 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
       <h1 class="catalog-title">Cредства для ухода</h1>
       <nav class="breadcrumbs">
         <ul>
@@ -46,44 +46,62 @@
           <li>Средства для ухода</li>
         </ul>
       </nav>
-      <form action="#" method="get">
+      <form class="filters" action="#" method="get">
         <div class="filter-devel">
           <h2 class="filter-devel-title">Производители:</h2>
-          <label>
-            <input type="checkbox" checked> Baxter of California
-          </label>
-          <label>
-            <input type="checkbox"> Mr Natty
-          </label>
-          <label>
-            <input type="checkbox" checked> Suavecito
-          </label>
-          <label>
-            <input type="checkbox"> Malin+Goetz
-          </label>
-          <label>
-            <input type="checkbox"> Murray’s
-          </label>
-          <label>
-            <input type="checkbox" checked> American Crew
-          </label>
+          <p>
+            <label>
+              <input type="checkbox" checked> Baxter of California
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox"> Mr Natty
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox" checked> Suavecito
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox"> Malin+Goetz
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox"> Murray’s
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox" checked> American Crew
+            </label>
+          </p>
         </div>
         <div class="filter-item">
           <h2>Группы товаров:</h2>
-          <labeL>
-            <input type="radio" name="group-items" value="1"> Бритвенные
+          <p>
+            <labeL>
+              <input type="radio" name="group-items" value="1"> Бритвенные
 принадлежности
-          </label>
-          <labeL>
-            <input type="radio" name="group-items" value="2" checked> Средства для ухода
-          </label>
-          <labeL>
-            <input type="radio" name="group-items" value="3"> Аксессуары
-          </label>
+            </label>
+          </p>
+          <p>
+            <labeL>
+              <input type="radio" name="group-items" value="2" checked> Средства для ухода
+            </label>
+          </p>
+          <p>
+            <labeL>
+              <input type="radio" name="group-items" value="3"> Аксессуары
+            </label>
+          </p>
         </div>
         <button class="btn show-items" type="submit">Показать</button>
       </form>
-      <section class="list-items">
+      <section class="list-items clearfix">
         <article class="catalog-item">
           <a class="preview" href="#"><img src="img/catalog-item-1.jpg" alt="Набор для путешествий «Baxter of California»"></a>
           <div class="catalog-item-name">
@@ -92,7 +110,7 @@
           </div>
           <div class="buy-item">
             <span class="price-item">2 900 руб.</span>
-            <button class="btn buy-it" type="button">Купить</button>
+            <button class="btn buy-it" type="button">Купить</button> <!-- должна быть ссылка -->
           </div>
         </article>
         <article class="catalog-item">
@@ -169,7 +187,7 @@
       </nav>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>

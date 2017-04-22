@@ -18,3 +18,125 @@ body {
   font-weight: bold;
   color: #000000;
 }
+
+/*Сетка каталога*/
+
+.main-header {
+  margin-bottom: 55px;
+  background-color: #000000;
+}
+
+.container {
+  width: 940px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  display: block;
+  width: 111px;
+  height: 24px;
+  float: left;
+  background-color: #332bcd;
+  margin-right: 19px;
+}
+
+.main-navigation {
+  width: 640px;
+  float: left;
+  background-color: #1dca21;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+  background-color: #d6d421;
+}
+
+.catalog-title {
+  margin-bottom: 21px;
+  width: 300px;
+  background-color: #1dca21;
+}
+
+.breadcrumbs {
+  width: 300px;
+  background-color: #1dca21;
+  margin-bottom: 52px;
+}
+
+.filters {
+  float: left;
+  width: 220px;
+  background-color: #d6d421;
+  margin-right: 20px;
+}
+
+.list-items {
+  float: left;
+  width: 700px;
+  background-color: #d6d421;
+  font-size: 0;
+  margin-bottom: 45px;
+}
+
+.catalog-item {
+  display: inline-block;
+  width: 220px;
+  background-color: #1dca21;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.catalog-item:nth-child(-n+3) {
+  margin-bottom: 31px;
+}
+
+.pages {
+  width: 220px;
+  background-color: #1dca21;
+  margin-left: 240px;
+  clear: both;
+}
+
+.main-footer {
+  margin-top: 32px;
+  background-color: #000000;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  background-color: #1dca21;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  background-color: #1dca21;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  background-color: #1dca21;
+}
