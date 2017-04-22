@@ -63,12 +63,12 @@ body {
 
 .catalog-title {
   margin-bottom: 21px;
-  width: 300px;
+  width: 800px;
   background-color: #1dca21;
 }
 
 .breadcrumbs {
-  width: 300px;
+  width: 800px;
   background-color: #1dca21;
   margin-bottom: 52px;
 }
@@ -94,6 +94,7 @@ body {
   background-color: #1dca21;
   margin-right: 20px;
   font-size: 14px;
+  vertical-align: middle;
 }
 
 .catalog-item:nth-child(3n) {
@@ -139,4 +140,9 @@ body {
   float: right;
   width: 180px;
   background-color: #1dca21;
+}
+
+.category-item,
+.mark-item {
+  display: block;
 }
