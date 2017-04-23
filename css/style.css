@@ -22,7 +22,7 @@ h1 {
 /*Сетка каталога*/
 
 .main-header {
-  margin-bottom: 55px;
+  margin-bottom: 57px;
   background-color: #000000;
 }
 
@@ -70,13 +70,15 @@ h1 {
 .breadcrumbs {
   width: 800px;
   background-color: #1dca21;
-  margin-bottom: 53px;
+  float: left;
+  /*margin-bottom: 53px;*/
 }
 
 .filters {
   float: left;
   width: 220px;
   background-color: #d6d421;
+  margin-top: 53px;
   margin-right: 20px;
 }
 
@@ -85,6 +87,7 @@ h1 {
   width: 700px;
   background-color: #d6d421;
   font-size: 0;
+  margin-top: 57px;
   margin-bottom: 45px;
 }
 
@@ -154,7 +157,8 @@ h1 {
   width: 480px;
   background-color: #1dca21;
   font-size: 0;
-  margin-top: 57px;
+  margin-top: 56px;
+  margin-right: 70px;
 }
 
 .item-main-img {
@@ -176,16 +180,17 @@ h1 {
 }
 
 .item-description {
-  float: right;
-  width: 400px;
+  float: left;
+  width: 390px;
   background-color: #d6d421;
+  margin-top: 80px;
+  margin-bottom: 39px;
 }
 
 .availability {
-  float: right;
-  width: 400px;
+  float: left;
+  width: 390px;
   background-color: #1dca21;
-  /*margin-top: 80px;*/
 }
 
 .avail-info {
@@ -200,4 +205,17 @@ h1 {
   float: right;
   width: 140px;
   background-color: #1484e3;
+}
+
+.buy-item {
+  float: left;
+  width: 187px;
+  background-color: #1484e3;
+}
+
+.item-consist {
+  float: left;
+  width: 310px;
+  background-color: #d6d421;
+  margin-top: 65px;
 }
