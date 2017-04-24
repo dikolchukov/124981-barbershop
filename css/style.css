@@ -70,15 +70,15 @@ h1 {
 .breadcrumbs {
   width: 800px;
   background-color: #1dca21;
-  float: left;
-  /*margin-bottom: 53px;*/
+  /*float: left;*/
+  margin-bottom: 53px;
 }
 
 .filters {
   float: left;
   width: 220px;
   background-color: #d6d421;
-  margin-top: 53px;
+  /*margin-top: 53px;*/
   margin-right: 20px;
 }
 
@@ -87,7 +87,7 @@ h1 {
   width: 700px;
   background-color: #d6d421;
   font-size: 0;
-  margin-top: 57px;
+  margin-top: 3px;
   margin-bottom: 45px;
 }
 
@@ -109,7 +109,7 @@ h1 {
 }
 
 .pages {
-  display: inline-block;
+  /*display: inline-block;*/
   width: 220px;
   background-color: #1dca21;
   margin-left: 240px;
@@ -218,4 +218,9 @@ h1 {
   width: 310px;
   background-color: #d6d421;
   margin-top: 65px;
+}
+
+.wrapper {
+  background-color: #453a3a;
+  /*margin-top: 57px;*/
 }
